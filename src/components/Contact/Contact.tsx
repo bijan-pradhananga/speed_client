@@ -20,7 +20,7 @@ export default Contact
 const ContactInfo = () => {
     return (
         <div className="lg:mb-0 mb-10">
-            <div className="group w-full h-full">
+            <div className="group w-full h-full shadow-2 shadow-lg">
                 <div className="relative h-full">
                     <img
                         src="https://pagedone.io/asset/uploads/1696488602.png"
@@ -31,7 +31,7 @@ const ContactInfo = () => {
                         Contact us
                     </h1>
                     <div className="absolute bottom-0 w-full lg:p-11 p-5">
-                        <div className="bg-white rounded-lg p-6 block">
+                        <div className="bg-white dark:bg-gray-800 rounded-lg p-6 block">
                             <a  className="flex items-center mb-6">
                                 <svg
                                     width={30}
@@ -48,7 +48,7 @@ const ContactInfo = () => {
                                         strokeLinejoin="round"
                                     />
                                 </svg>
-                                <h5 className="text-black text-base font-normal leading-6 ml-5">
+                                <h5 className="text-black text-base font-normal leading-6 ml-5 dark:text-white">
                                     01-4243216
                                 </h5>
                             </a>
@@ -67,7 +67,7 @@ const ContactInfo = () => {
                                         strokeLinecap="round"
                                     />
                                 </svg>
-                                <h5 className="text-black text-base font-normal leading-6 ml-5">
+                                <h5 className="text-black text-base font-normal leading-6 ml-5 dark:text-white">
                                     speedoffsetndesign@gmail.com
                                 </h5>
                             </a>
@@ -90,7 +90,7 @@ const ContactInfo = () => {
                                         strokeWidth={2}
                                     />
                                 </svg>
-                                <h5 className="text-black text-base font-normal leading-6 ml-5">
+                                <h5 className="text-black text-base font-normal leading-6 ml-5 dark:text-white">
                                     Bagbazaar, Kathmandu
                                 </h5>
                             </a>
@@ -104,7 +104,7 @@ const ContactInfo = () => {
 
 const ContactForm = () => {
     return (
-        <div className="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
+        <div className="bg-gray-50 dark:bg-gray-900 dark:border dark:border-gray-700 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl shadow-2 shadow-lg">
             <h2 className="text-pink-600 font-manrope text-4xl font-semibold leading-10 mb-11">
                 Send Us A Message
             </h2>
@@ -129,7 +129,7 @@ const ContactForm = () => {
                 className="w-full h-12 text-gray-600 rounded-lg placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 border border-gray-200 focus:outline-none pl-4 mb-10"
                 placeholder="Message"
             />
-            <button className="w-full h-12 text-white text-base font-semibold leading-6 rounded-lg transition-all duration-700 bg-gray-800 active:bg-gray-600 shadow-sm">
+            <button className="w-full h-12 text-white text-base font-semibold leading-6 rounded-lg transition-all duration-700 bg-gray-700 hover:bg-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-sm ">
                 Send
             </button>
         </div>
