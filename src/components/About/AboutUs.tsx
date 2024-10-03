@@ -59,7 +59,7 @@ const AboutUsInfo = () => {
 const AboutUsCard = ({ card }: { card: cardInfoType }) => {
   return (
     <div className="flex-col justify-start items-start inline-flex">
-      <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
+      <h3 className="text-gray-900 dark:text-gray-200 text-4xl font-bold font-manrope leading-normal">
         {card.number}+
       </h3>
       <h6 className="text-gray-500 text-base font-normal leading-relaxed">
