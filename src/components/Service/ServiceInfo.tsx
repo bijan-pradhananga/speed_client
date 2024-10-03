@@ -15,7 +15,7 @@ export interface ServiceType {
 export const services: ServiceType[] = [
   {
     title: "Logo Design",
-    details: "Craft unique logos and cohesive brand identities that leave a lasting impression.",
+    details: "Craft unique logos and cohesive brand identities that leave a lasting impression on your audience.",
     icon: <SiGraphite className='text-2xl'/>
   },
   {
@@ -30,7 +30,7 @@ export const services: ServiceType[] = [
   },
   {
     title: "Digital Printing",
-    details: "Provide high-quality printed products with fast turnaround times for various media.",
+    details: "Provide high-quality printed products for various media, ensuring that your projects are completed to the highest standards",
     icon: <IoPrintSharp className="text-3xl"/>
   },
   {
