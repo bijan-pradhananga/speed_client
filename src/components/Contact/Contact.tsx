@@ -48,7 +48,7 @@ const ContactInfo = () => {
                                         strokeLinejoin="round"
                                     />
                                 </svg>
-                                <h5 className="text-black text-base font-normal leading-6 ml-5 dark:text-white">
+                                <h5 className="text-black text-sm font-normal leading-6 ml-5 dark:text-white">
                                     01-4243216
                                 </h5>
                             </a>
@@ -67,7 +67,7 @@ const ContactInfo = () => {
                                         strokeLinecap="round"
                                     />
                                 </svg>
-                                <h5 className="text-black text-base font-normal leading-6 ml-5 dark:text-white">
+                                <h5 className="text-black text-sm font-normal leading-6 ml-5 dark:text-white">
                                     speedoffsetndesign@gmail.com
                                 </h5>
                             </a>
@@ -90,7 +90,7 @@ const ContactInfo = () => {
                                         strokeWidth={2}
                                     />
                                 </svg>
-                                <h5 className="text-black text-base font-normal leading-6 ml-5 dark:text-white">
+                                <h5 className="text-black text-sm font-normal leading-6 ml-5 dark:text-white">
                                     Bagbazaar, Kathmandu
                                 </h5>
                             </a>

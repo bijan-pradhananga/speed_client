@@ -38,7 +38,7 @@ const ServiceCard:React.FC<{ service: ServiceType }> = ({ service }) => {
           <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
             {service.title}
           </h4>
-          <p className="text-body-color dark:text-dark-6">{service.details}</p>
+          <p className="text-body-color dark:text-gray-500">{service.details}</p>
         </div>
       </div>
   );
