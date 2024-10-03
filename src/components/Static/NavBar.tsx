@@ -20,9 +20,9 @@ const NavBar = () => {
                     <li className="hidden md:block"><Link href='#service'>Services</Link></li>
                     <li className="hidden md:block"><Link href='#contact'>Contact</Link></li>
                     <ThemeSwitch/>
-                    <div className="dropdown dropdown-bottom dropdown-end  md:hidden ml-2">
-                        <div tabIndex={0} role="button" className="btn m-1"><IoMenu className="text-2xl" /></div>
-                        <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                    <div className="dropdown dropdown-bottom dropdown-end  md:hidden ml-2 ">
+                        <div tabIndex={0} role="button" className="btn m-1 dark:bg-gray-900" ><IoMenu className="text-2xl dark:text-white" /></div>
+                        <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow dark:bg-gray-800 dark:border">
                             <li ><Link href='/'>Home</Link></li>
                             <li ><Link href='#about'>About</Link></li>
                             <li ><Link href='#service'>Services</Link></li>

@@ -9,15 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        customBlue: '#647ceb',
+        customBlue: '#647ceb'
       },
     },
   },
   plugins: [
     require('daisyui'),
   ],
+  daisyui: {
+    themes: ['light', 'dark'], 
+    darkTheme: "light", 
+    base: false, 
+  },
   darkMode:'class',
 };
 export default config;
