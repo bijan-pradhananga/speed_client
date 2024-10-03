@@ -25,7 +25,7 @@ export const services: ServiceType[] = [
   },
   {
     title: "Packaging",
-    details: "Elevate your product presentation with our custom packaging designed to enhance brand visibility and customer experience. ",
+    details: "Elevate your product presentation with our packaging designed to enhance brand visibility and customer experience. ",
     icon: <LuPackage className='text-2xl' />
   },
   {
