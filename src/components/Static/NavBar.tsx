@@ -4,9 +4,9 @@ import { IoMenu } from "react-icons/io5";
 
 const NavBar = () => {
     return (
-        <div className="mx-auto w-full max-w-screen-xl navbar bg-base-100 z-40">
+        <div className="mx-auto w-full max-w-screen-xl navbar bg-base-100 dark:bg-gray-900  z-40">
             <div className="flex-1">
-                <span className="cursor-pointer">
+                <span className="cursor-pointer sm:ml-2 md:ml-0">
                     <Image src="/logo.png" width={50}
                         height={50}
                         alt="Logo" />
