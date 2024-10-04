@@ -14,7 +14,7 @@ const Home = () => {
 
 const HomeInfo = () => {
   return (
-    <div className="mx-auto items-center flex flex-wrap z-10">
+    <div className="mx-auto items-center flex flex-wrap z-10 mt-16 md:mt-0">
       <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
         <div className="pt-32 sm:pt-0">
           <h2 className="font-semibold text-2xl md:text-4xl text-blueGray-600 uppercase dark:text-gray-200">
@@ -59,7 +59,7 @@ const HomeInfoBtns = () => {
 const HomeImage = () => {
   return (
     <img
-      className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-36 sm:mt-0 w-10/12"
+      className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-14 md:mt-0 w-10/12"
       src="/Landing.png"
       alt="..."
     />
